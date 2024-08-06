@@ -3,7 +3,7 @@ import Maincontext from '../Context/Context'
 
 
 const Wishlist = () => {
-  const { fav, deleFromFav } = useContext(Maincontext)
+  const { fav, deleteFromFav } = useContext(Maincontext)
 
   return (
     <div className='container' style={{ height: "1000px" }}>
@@ -17,10 +17,10 @@ const Wishlist = () => {
                   <div class="cards ">
                     <img src={items.image} alt="" />
                     <p>{items.title}</p>
-                    <b>{items.price}</b>
+                    <b><span>$</span>{items.price}</b>
                     <p>{items.category}</p>
                     <button onClick={() => {
-                      deleFromFav(items)
+                      deleteFromFav(items)
                     }}>delete</button>
                   </div>
                 </div>

@@ -3,70 +3,70 @@
     {
       "id": "1",
       "title": "Fujifilm X100T 16 MP Digital Camera (Silver)",
-      "price": "$520.00",
+      "price": 520,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_1.png",
       "category": "men"
     },
     {
       "id": "2",
       "title": "Samsung CF591 Series Curved 27-Inch FHD",
-      "price": "$610.00",
+      "price": 610,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_2.png",
       "category": "accessories"
     },
     {
       "id": "3",
       "title": "Blue Yeti USB Microphone Blackout",
-      "price": "$120.00",
+      "price": 120,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_3.png",
       "category": "women"
     },
     {
       "id": "4",
       "title": "DYMO LabelWriter 450 Turbo Thermal",
-      "price": "$410.00",
+      "price": 410,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_4.png",
       "category": "accessories"
     },
     {
       "id": "5",
       "title": "Pryma Headphones, Rose Gold & Grey",
-      "price": "$180.00",
+      "price": 180,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_5.png",
       "category": "women"
     },
     {
       "id": "6",
       "title": "Pryma Headphones, Rose Gold & Grey",
-      "price": "$610.00",
+      "price": 610,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_10.png",
       "category": "men"
     },
     {
       "id": "7",
       "title": "Fujifilm X100T 16 MP Digital Camera",
-      "price": "$520.00",
+      "price": 520,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_6.png",
       "category": "accessories"
     },
     {
       "id": "8",
       "title": "Samsung CF591 Series Curved 27-Inch ",
-      "price": "$610.00",
+      "price": 610,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_7.png",
       "category": "women"
     },
     {
       "id": "9",
       "title": "Blue Yeti USB Microphone Blackout ",
-      "price": "$120.00",
+      "price": 120,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_8.png",
       "category": "accessories"
     },
     {
       "id": "5adf",
       "title": "Pryma Headphones, Rose Gold & Grey",
-      "price": "$410.00",
+      "price": 410,
       "image": "https://preview.colorlib.com/theme/coloshop/images/product_9.png",
       "category": "men"
     }

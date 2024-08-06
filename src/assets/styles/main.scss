@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+
 header{
     position: sticky;
     top: 0;
@@ -156,10 +157,13 @@ header{
 .cards {
     width: 230px;
     height: 400px;
-    border-right: 1px solid silver;
+    border-right: 1px solid rgb(240, 237, 237);
     margin-top: 10px;
     text-align: center;
-    
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
     p {
         font-weight: 600;
     }
@@ -169,10 +173,11 @@ header{
     button {
         width: 230px;
         height: 40px;
-        background-color: white;
         color: white;
         border: none;
-
+        transition: all .3s ease;
+        opacity: 0;
+        margin-top: auto ;
     }
     .heart-icon{
         color: white;
@@ -192,6 +197,7 @@ header{
         background-color: rgb(243, 95, 95);
         transition: background-color 0.5s ease;
         background-color: #fe4c50;
+        opacity: 1;
     }
     .heart-icon{
         color: black;
@@ -205,7 +211,7 @@ header{
 .cards-slide {
     width: 230px;
     height: 350px;
-    border-right: 1px solid silver;
+    border-right: 1px solid rgb(231, 229, 229);
     margin-top: 20px;
         text-align: center;
     
@@ -224,24 +230,6 @@ header{
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .card-parent {
     flex: 0 0 18%;
@@ -327,6 +315,13 @@ header{
 }
 
 .third-part {
+    .swiper-button-next{
+        color: red;
+        margin-left: 150px;
+    }
+    .swiper-button-prev{
+        color: red;
+    }
     h1 {
         font-size: 50px;
         text-align: center;
